@@ -4,6 +4,7 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900");
 .color-white {
   background: #FFFFFF; }
 
@@ -11,7 +12,7 @@
   background: #000000; }
 
 .color-accent {
-  background: #0078D7; }
+  background: #7b60d9; }
 
 .color-alert {
   background: #D02E00; }
@@ -26,7 +27,7 @@
   color: rgba(0, 0, 0, 0.2); }
 
 .color-type-accent {
-  color: #0078D7; }
+  color: #7b60d9; }
 
 .color-type-alert {
   color: #D02E00; }
@@ -41,7 +42,7 @@
   color: rgba(255, 255, 255, 0.2); }
 
 .color-type-accent-alt {
-  color: #0078D7; }
+  color: #7b60d9; }
 
 .color-type-alert-alt {
   color: #D02E00; }
@@ -173,61 +174,61 @@
   background: #404040; }
 
 .color-fill-accent-dim-low {
-  background-color: rgba(0, 120, 215, 0.05); }
+  background-color: rgba(123, 96, 217, 0.05); }
 
 .color-fill-accent-dim-mid {
-  background-color: rgba(0, 120, 215, 0.1); }
+  background-color: rgba(123, 96, 217, 0.1); }
 
 .color-fill-accent-dim-high {
-  background-color: rgba(0, 120, 215, 0.15); }
+  background-color: rgba(123, 96, 217, 0.15); }
 
 .color-fill-accent-neutral-low {
-  background-color: rgba(0, 120, 215, 0.2); }
+  background-color: rgba(123, 96, 217, 0.2); }
 
 .color-fill-accent-neutral-mid {
-  background-color: rgba(0, 120, 215, 0.3); }
+  background-color: rgba(123, 96, 217, 0.3); }
 
 .color-fill-accent-neutral-high {
-  background-color: rgba(0, 120, 215, 0.4); }
+  background-color: rgba(123, 96, 217, 0.4); }
 
 .color-fill-accent-vivid-low {
-  background-color: rgba(0, 120, 215, 0.6); }
+  background-color: rgba(123, 96, 217, 0.6); }
 
 .color-fill-accent-vivid-mid {
-  background-color: rgba(0, 120, 215, 0.8); }
+  background-color: rgba(123, 96, 217, 0.8); }
 
 .color-fill-accent-vivid-high {
-  background-color: #0078D7; }
+  background-color: #7b60d9; }
 
 .color-fill-alert {
   background-color: #D02E00; }
 
 .color-line-accent-dim-low {
-  border-color: rgba(0, 120, 215, 0.05); }
+  border-color: rgba(123, 96, 217, 0.05); }
 
 .color-line-accent-dim-mid {
-  border-color: rgba(0, 120, 215, 0.1); }
+  border-color: rgba(123, 96, 217, 0.1); }
 
 .color-line-accent-dim-high {
-  border-color: rgba(0, 120, 215, 0.15); }
+  border-color: rgba(123, 96, 217, 0.15); }
 
 .color-line-accent-neutral-low {
-  border-color: rgba(0, 120, 215, 0.2); }
+  border-color: rgba(123, 96, 217, 0.2); }
 
 .color-line-accent-neutral-mid {
-  border-color: rgba(0, 120, 215, 0.3); }
+  border-color: rgba(123, 96, 217, 0.3); }
 
 .color-line-accent-neutral-high {
-  border-color: rgba(0, 120, 215, 0.4); }
+  border-color: rgba(123, 96, 217, 0.4); }
 
 .color-line-accent-vivid-low {
-  border-color: rgba(0, 120, 215, 0.6); }
+  border-color: rgba(123, 96, 217, 0.6); }
 
 .color-line-accent-vivid-mid {
-  border-color: rgba(0, 120, 215, 0.8); }
+  border-color: rgba(123, 96, 217, 0.8); }
 
 .color-line-accent-vivid-high {
-  border-color: #0078D7; }
+  border-color: #7b60d9; }
 
 .color-line-alert {
   border-color: #D02E00; }
@@ -719,11 +720,6 @@
     padding-left: 2px;
     padding-right: 2px; }
 
-/* when a project includes winstrap, it might want to pick and choose what parts of bootstrap
-to include instead of the default set of bootstrap components winstrap selects automatically.
-This demonstrates how to do this for a project that happens to override the bootstrap grid in
-order to substitute it with another grid. instead of @import "winstrap/src/scss/winstrap", use
-@import "winstrap/src/scss/winstrap-optional" in your project's scss */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -972,7 +968,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5625;
   color: #000000;
@@ -987,10 +983,10 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #0078D7;
+  color: #7b60d9;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #0078D7;
+    color: #7b60d9;
     text-decoration: underline; }
   a:focus {
     outline: 1px dotted #999;
@@ -1415,6 +1411,958 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+  @media (min-width: 540px) {
+    .container {
+      width: 492px; } }
+  @media (min-width: 768px) {
+    .container {
+      width: 691px; } }
+  @media (min-width: 1084px) {
+    .container {
+      width: 976px; } }
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .container-fluid:before, .container-fluid:after {
+    content: " ";
+    display: table; }
+  .container-fluid:after {
+    clear: both; }
+
+.row {
+  margin-left: -10px;
+  margin-right: -10px; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, .col-xs-13, .col-sm-13, .col-md-13, .col-lg-13, .col-xs-14, .col-sm-14, .col-md-14, .col-lg-14, .col-xs-15, .col-sm-15, .col-md-15, .col-lg-15, .col-xs-16, .col-sm-16, .col-md-16, .col-lg-16, .col-xs-17, .col-sm-17, .col-md-17, .col-lg-17, .col-xs-18, .col-sm-18, .col-md-18, .col-lg-18, .col-xs-19, .col-sm-19, .col-md-19, .col-lg-19, .col-xs-20, .col-sm-20, .col-md-20, .col-lg-20, .col-xs-21, .col-sm-21, .col-md-21, .col-lg-21, .col-xs-22, .col-sm-22, .col-md-22, .col-lg-22, .col-xs-23, .col-sm-23, .col-md-23, .col-lg-23, .col-xs-24, .col-sm-24, .col-md-24, .col-lg-24 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-13, .col-xs-14, .col-xs-15, .col-xs-16, .col-xs-17, .col-xs-18, .col-xs-19, .col-xs-20, .col-xs-21, .col-xs-22, .col-xs-23, .col-xs-24 {
+  float: left; }
+
+.col-xs-1 {
+  width: 4.16667%; }
+
+.col-xs-2 {
+  width: 8.33333%; }
+
+.col-xs-3 {
+  width: 12.5%; }
+
+.col-xs-4 {
+  width: 16.66667%; }
+
+.col-xs-5 {
+  width: 20.83333%; }
+
+.col-xs-6 {
+  width: 25%; }
+
+.col-xs-7 {
+  width: 29.16667%; }
+
+.col-xs-8 {
+  width: 33.33333%; }
+
+.col-xs-9 {
+  width: 37.5%; }
+
+.col-xs-10 {
+  width: 41.66667%; }
+
+.col-xs-11 {
+  width: 45.83333%; }
+
+.col-xs-12 {
+  width: 50%; }
+
+.col-xs-13 {
+  width: 54.16667%; }
+
+.col-xs-14 {
+  width: 58.33333%; }
+
+.col-xs-15 {
+  width: 62.5%; }
+
+.col-xs-16 {
+  width: 66.66667%; }
+
+.col-xs-17 {
+  width: 70.83333%; }
+
+.col-xs-18 {
+  width: 75%; }
+
+.col-xs-19 {
+  width: 79.16667%; }
+
+.col-xs-20 {
+  width: 83.33333%; }
+
+.col-xs-21 {
+  width: 87.5%; }
+
+.col-xs-22 {
+  width: 91.66667%; }
+
+.col-xs-23 {
+  width: 95.83333%; }
+
+.col-xs-24 {
+  width: 100%; }
+
+.col-xs-pull-0 {
+  right: auto; }
+
+.col-xs-pull-1 {
+  right: 4.16667%; }
+
+.col-xs-pull-2 {
+  right: 8.33333%; }
+
+.col-xs-pull-3 {
+  right: 12.5%; }
+
+.col-xs-pull-4 {
+  right: 16.66667%; }
+
+.col-xs-pull-5 {
+  right: 20.83333%; }
+
+.col-xs-pull-6 {
+  right: 25%; }
+
+.col-xs-pull-7 {
+  right: 29.16667%; }
+
+.col-xs-pull-8 {
+  right: 33.33333%; }
+
+.col-xs-pull-9 {
+  right: 37.5%; }
+
+.col-xs-pull-10 {
+  right: 41.66667%; }
+
+.col-xs-pull-11 {
+  right: 45.83333%; }
+
+.col-xs-pull-12 {
+  right: 50%; }
+
+.col-xs-pull-13 {
+  right: 54.16667%; }
+
+.col-xs-pull-14 {
+  right: 58.33333%; }
+
+.col-xs-pull-15 {
+  right: 62.5%; }
+
+.col-xs-pull-16 {
+  right: 66.66667%; }
+
+.col-xs-pull-17 {
+  right: 70.83333%; }
+
+.col-xs-pull-18 {
+  right: 75%; }
+
+.col-xs-pull-19 {
+  right: 79.16667%; }
+
+.col-xs-pull-20 {
+  right: 83.33333%; }
+
+.col-xs-pull-21 {
+  right: 87.5%; }
+
+.col-xs-pull-22 {
+  right: 91.66667%; }
+
+.col-xs-pull-23 {
+  right: 95.83333%; }
+
+.col-xs-pull-24 {
+  right: 100%; }
+
+.col-xs-push-0 {
+  left: auto; }
+
+.col-xs-push-1 {
+  left: 4.16667%; }
+
+.col-xs-push-2 {
+  left: 8.33333%; }
+
+.col-xs-push-3 {
+  left: 12.5%; }
+
+.col-xs-push-4 {
+  left: 16.66667%; }
+
+.col-xs-push-5 {
+  left: 20.83333%; }
+
+.col-xs-push-6 {
+  left: 25%; }
+
+.col-xs-push-7 {
+  left: 29.16667%; }
+
+.col-xs-push-8 {
+  left: 33.33333%; }
+
+.col-xs-push-9 {
+  left: 37.5%; }
+
+.col-xs-push-10 {
+  left: 41.66667%; }
+
+.col-xs-push-11 {
+  left: 45.83333%; }
+
+.col-xs-push-12 {
+  left: 50%; }
+
+.col-xs-push-13 {
+  left: 54.16667%; }
+
+.col-xs-push-14 {
+  left: 58.33333%; }
+
+.col-xs-push-15 {
+  left: 62.5%; }
+
+.col-xs-push-16 {
+  left: 66.66667%; }
+
+.col-xs-push-17 {
+  left: 70.83333%; }
+
+.col-xs-push-18 {
+  left: 75%; }
+
+.col-xs-push-19 {
+  left: 79.16667%; }
+
+.col-xs-push-20 {
+  left: 83.33333%; }
+
+.col-xs-push-21 {
+  left: 87.5%; }
+
+.col-xs-push-22 {
+  left: 91.66667%; }
+
+.col-xs-push-23 {
+  left: 95.83333%; }
+
+.col-xs-push-24 {
+  left: 100%; }
+
+.col-xs-offset-0 {
+  margin-left: 0%; }
+
+.col-xs-offset-1 {
+  margin-left: 4.16667%; }
+
+.col-xs-offset-2 {
+  margin-left: 8.33333%; }
+
+.col-xs-offset-3 {
+  margin-left: 12.5%; }
+
+.col-xs-offset-4 {
+  margin-left: 16.66667%; }
+
+.col-xs-offset-5 {
+  margin-left: 20.83333%; }
+
+.col-xs-offset-6 {
+  margin-left: 25%; }
+
+.col-xs-offset-7 {
+  margin-left: 29.16667%; }
+
+.col-xs-offset-8 {
+  margin-left: 33.33333%; }
+
+.col-xs-offset-9 {
+  margin-left: 37.5%; }
+
+.col-xs-offset-10 {
+  margin-left: 41.66667%; }
+
+.col-xs-offset-11 {
+  margin-left: 45.83333%; }
+
+.col-xs-offset-12 {
+  margin-left: 50%; }
+
+.col-xs-offset-13 {
+  margin-left: 54.16667%; }
+
+.col-xs-offset-14 {
+  margin-left: 58.33333%; }
+
+.col-xs-offset-15 {
+  margin-left: 62.5%; }
+
+.col-xs-offset-16 {
+  margin-left: 66.66667%; }
+
+.col-xs-offset-17 {
+  margin-left: 70.83333%; }
+
+.col-xs-offset-18 {
+  margin-left: 75%; }
+
+.col-xs-offset-19 {
+  margin-left: 79.16667%; }
+
+.col-xs-offset-20 {
+  margin-left: 83.33333%; }
+
+.col-xs-offset-21 {
+  margin-left: 87.5%; }
+
+.col-xs-offset-22 {
+  margin-left: 91.66667%; }
+
+.col-xs-offset-23 {
+  margin-left: 95.83333%; }
+
+.col-xs-offset-24 {
+  margin-left: 100%; }
+
+@media (min-width: 540px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15, .col-sm-16, .col-sm-17, .col-sm-18, .col-sm-19, .col-sm-20, .col-sm-21, .col-sm-22, .col-sm-23, .col-sm-24 {
+    float: left; }
+  .col-sm-1 {
+    width: 4.16667%; }
+  .col-sm-2 {
+    width: 8.33333%; }
+  .col-sm-3 {
+    width: 12.5%; }
+  .col-sm-4 {
+    width: 16.66667%; }
+  .col-sm-5 {
+    width: 20.83333%; }
+  .col-sm-6 {
+    width: 25%; }
+  .col-sm-7 {
+    width: 29.16667%; }
+  .col-sm-8 {
+    width: 33.33333%; }
+  .col-sm-9 {
+    width: 37.5%; }
+  .col-sm-10 {
+    width: 41.66667%; }
+  .col-sm-11 {
+    width: 45.83333%; }
+  .col-sm-12 {
+    width: 50%; }
+  .col-sm-13 {
+    width: 54.16667%; }
+  .col-sm-14 {
+    width: 58.33333%; }
+  .col-sm-15 {
+    width: 62.5%; }
+  .col-sm-16 {
+    width: 66.66667%; }
+  .col-sm-17 {
+    width: 70.83333%; }
+  .col-sm-18 {
+    width: 75%; }
+  .col-sm-19 {
+    width: 79.16667%; }
+  .col-sm-20 {
+    width: 83.33333%; }
+  .col-sm-21 {
+    width: 87.5%; }
+  .col-sm-22 {
+    width: 91.66667%; }
+  .col-sm-23 {
+    width: 95.83333%; }
+  .col-sm-24 {
+    width: 100%; }
+  .col-sm-pull-0 {
+    right: auto; }
+  .col-sm-pull-1 {
+    right: 4.16667%; }
+  .col-sm-pull-2 {
+    right: 8.33333%; }
+  .col-sm-pull-3 {
+    right: 12.5%; }
+  .col-sm-pull-4 {
+    right: 16.66667%; }
+  .col-sm-pull-5 {
+    right: 20.83333%; }
+  .col-sm-pull-6 {
+    right: 25%; }
+  .col-sm-pull-7 {
+    right: 29.16667%; }
+  .col-sm-pull-8 {
+    right: 33.33333%; }
+  .col-sm-pull-9 {
+    right: 37.5%; }
+  .col-sm-pull-10 {
+    right: 41.66667%; }
+  .col-sm-pull-11 {
+    right: 45.83333%; }
+  .col-sm-pull-12 {
+    right: 50%; }
+  .col-sm-pull-13 {
+    right: 54.16667%; }
+  .col-sm-pull-14 {
+    right: 58.33333%; }
+  .col-sm-pull-15 {
+    right: 62.5%; }
+  .col-sm-pull-16 {
+    right: 66.66667%; }
+  .col-sm-pull-17 {
+    right: 70.83333%; }
+  .col-sm-pull-18 {
+    right: 75%; }
+  .col-sm-pull-19 {
+    right: 79.16667%; }
+  .col-sm-pull-20 {
+    right: 83.33333%; }
+  .col-sm-pull-21 {
+    right: 87.5%; }
+  .col-sm-pull-22 {
+    right: 91.66667%; }
+  .col-sm-pull-23 {
+    right: 95.83333%; }
+  .col-sm-pull-24 {
+    right: 100%; }
+  .col-sm-push-0 {
+    left: auto; }
+  .col-sm-push-1 {
+    left: 4.16667%; }
+  .col-sm-push-2 {
+    left: 8.33333%; }
+  .col-sm-push-3 {
+    left: 12.5%; }
+  .col-sm-push-4 {
+    left: 16.66667%; }
+  .col-sm-push-5 {
+    left: 20.83333%; }
+  .col-sm-push-6 {
+    left: 25%; }
+  .col-sm-push-7 {
+    left: 29.16667%; }
+  .col-sm-push-8 {
+    left: 33.33333%; }
+  .col-sm-push-9 {
+    left: 37.5%; }
+  .col-sm-push-10 {
+    left: 41.66667%; }
+  .col-sm-push-11 {
+    left: 45.83333%; }
+  .col-sm-push-12 {
+    left: 50%; }
+  .col-sm-push-13 {
+    left: 54.16667%; }
+  .col-sm-push-14 {
+    left: 58.33333%; }
+  .col-sm-push-15 {
+    left: 62.5%; }
+  .col-sm-push-16 {
+    left: 66.66667%; }
+  .col-sm-push-17 {
+    left: 70.83333%; }
+  .col-sm-push-18 {
+    left: 75%; }
+  .col-sm-push-19 {
+    left: 79.16667%; }
+  .col-sm-push-20 {
+    left: 83.33333%; }
+  .col-sm-push-21 {
+    left: 87.5%; }
+  .col-sm-push-22 {
+    left: 91.66667%; }
+  .col-sm-push-23 {
+    left: 95.83333%; }
+  .col-sm-push-24 {
+    left: 100%; }
+  .col-sm-offset-0 {
+    margin-left: 0%; }
+  .col-sm-offset-1 {
+    margin-left: 4.16667%; }
+  .col-sm-offset-2 {
+    margin-left: 8.33333%; }
+  .col-sm-offset-3 {
+    margin-left: 12.5%; }
+  .col-sm-offset-4 {
+    margin-left: 16.66667%; }
+  .col-sm-offset-5 {
+    margin-left: 20.83333%; }
+  .col-sm-offset-6 {
+    margin-left: 25%; }
+  .col-sm-offset-7 {
+    margin-left: 29.16667%; }
+  .col-sm-offset-8 {
+    margin-left: 33.33333%; }
+  .col-sm-offset-9 {
+    margin-left: 37.5%; }
+  .col-sm-offset-10 {
+    margin-left: 41.66667%; }
+  .col-sm-offset-11 {
+    margin-left: 45.83333%; }
+  .col-sm-offset-12 {
+    margin-left: 50%; }
+  .col-sm-offset-13 {
+    margin-left: 54.16667%; }
+  .col-sm-offset-14 {
+    margin-left: 58.33333%; }
+  .col-sm-offset-15 {
+    margin-left: 62.5%; }
+  .col-sm-offset-16 {
+    margin-left: 66.66667%; }
+  .col-sm-offset-17 {
+    margin-left: 70.83333%; }
+  .col-sm-offset-18 {
+    margin-left: 75%; }
+  .col-sm-offset-19 {
+    margin-left: 79.16667%; }
+  .col-sm-offset-20 {
+    margin-left: 83.33333%; }
+  .col-sm-offset-21 {
+    margin-left: 87.5%; }
+  .col-sm-offset-22 {
+    margin-left: 91.66667%; }
+  .col-sm-offset-23 {
+    margin-left: 95.83333%; }
+  .col-sm-offset-24 {
+    margin-left: 100%; } }
+
+@media (min-width: 768px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-13, .col-md-14, .col-md-15, .col-md-16, .col-md-17, .col-md-18, .col-md-19, .col-md-20, .col-md-21, .col-md-22, .col-md-23, .col-md-24 {
+    float: left; }
+  .col-md-1 {
+    width: 4.16667%; }
+  .col-md-2 {
+    width: 8.33333%; }
+  .col-md-3 {
+    width: 12.5%; }
+  .col-md-4 {
+    width: 16.66667%; }
+  .col-md-5 {
+    width: 20.83333%; }
+  .col-md-6 {
+    width: 25%; }
+  .col-md-7 {
+    width: 29.16667%; }
+  .col-md-8 {
+    width: 33.33333%; }
+  .col-md-9 {
+    width: 37.5%; }
+  .col-md-10 {
+    width: 41.66667%; }
+  .col-md-11 {
+    width: 45.83333%; }
+  .col-md-12 {
+    width: 50%; }
+  .col-md-13 {
+    width: 54.16667%; }
+  .col-md-14 {
+    width: 58.33333%; }
+  .col-md-15 {
+    width: 62.5%; }
+  .col-md-16 {
+    width: 66.66667%; }
+  .col-md-17 {
+    width: 70.83333%; }
+  .col-md-18 {
+    width: 75%; }
+  .col-md-19 {
+    width: 79.16667%; }
+  .col-md-20 {
+    width: 83.33333%; }
+  .col-md-21 {
+    width: 87.5%; }
+  .col-md-22 {
+    width: 91.66667%; }
+  .col-md-23 {
+    width: 95.83333%; }
+  .col-md-24 {
+    width: 100%; }
+  .col-md-pull-0 {
+    right: auto; }
+  .col-md-pull-1 {
+    right: 4.16667%; }
+  .col-md-pull-2 {
+    right: 8.33333%; }
+  .col-md-pull-3 {
+    right: 12.5%; }
+  .col-md-pull-4 {
+    right: 16.66667%; }
+  .col-md-pull-5 {
+    right: 20.83333%; }
+  .col-md-pull-6 {
+    right: 25%; }
+  .col-md-pull-7 {
+    right: 29.16667%; }
+  .col-md-pull-8 {
+    right: 33.33333%; }
+  .col-md-pull-9 {
+    right: 37.5%; }
+  .col-md-pull-10 {
+    right: 41.66667%; }
+  .col-md-pull-11 {
+    right: 45.83333%; }
+  .col-md-pull-12 {
+    right: 50%; }
+  .col-md-pull-13 {
+    right: 54.16667%; }
+  .col-md-pull-14 {
+    right: 58.33333%; }
+  .col-md-pull-15 {
+    right: 62.5%; }
+  .col-md-pull-16 {
+    right: 66.66667%; }
+  .col-md-pull-17 {
+    right: 70.83333%; }
+  .col-md-pull-18 {
+    right: 75%; }
+  .col-md-pull-19 {
+    right: 79.16667%; }
+  .col-md-pull-20 {
+    right: 83.33333%; }
+  .col-md-pull-21 {
+    right: 87.5%; }
+  .col-md-pull-22 {
+    right: 91.66667%; }
+  .col-md-pull-23 {
+    right: 95.83333%; }
+  .col-md-pull-24 {
+    right: 100%; }
+  .col-md-push-0 {
+    left: auto; }
+  .col-md-push-1 {
+    left: 4.16667%; }
+  .col-md-push-2 {
+    left: 8.33333%; }
+  .col-md-push-3 {
+    left: 12.5%; }
+  .col-md-push-4 {
+    left: 16.66667%; }
+  .col-md-push-5 {
+    left: 20.83333%; }
+  .col-md-push-6 {
+    left: 25%; }
+  .col-md-push-7 {
+    left: 29.16667%; }
+  .col-md-push-8 {
+    left: 33.33333%; }
+  .col-md-push-9 {
+    left: 37.5%; }
+  .col-md-push-10 {
+    left: 41.66667%; }
+  .col-md-push-11 {
+    left: 45.83333%; }
+  .col-md-push-12 {
+    left: 50%; }
+  .col-md-push-13 {
+    left: 54.16667%; }
+  .col-md-push-14 {
+    left: 58.33333%; }
+  .col-md-push-15 {
+    left: 62.5%; }
+  .col-md-push-16 {
+    left: 66.66667%; }
+  .col-md-push-17 {
+    left: 70.83333%; }
+  .col-md-push-18 {
+    left: 75%; }
+  .col-md-push-19 {
+    left: 79.16667%; }
+  .col-md-push-20 {
+    left: 83.33333%; }
+  .col-md-push-21 {
+    left: 87.5%; }
+  .col-md-push-22 {
+    left: 91.66667%; }
+  .col-md-push-23 {
+    left: 95.83333%; }
+  .col-md-push-24 {
+    left: 100%; }
+  .col-md-offset-0 {
+    margin-left: 0%; }
+  .col-md-offset-1 {
+    margin-left: 4.16667%; }
+  .col-md-offset-2 {
+    margin-left: 8.33333%; }
+  .col-md-offset-3 {
+    margin-left: 12.5%; }
+  .col-md-offset-4 {
+    margin-left: 16.66667%; }
+  .col-md-offset-5 {
+    margin-left: 20.83333%; }
+  .col-md-offset-6 {
+    margin-left: 25%; }
+  .col-md-offset-7 {
+    margin-left: 29.16667%; }
+  .col-md-offset-8 {
+    margin-left: 33.33333%; }
+  .col-md-offset-9 {
+    margin-left: 37.5%; }
+  .col-md-offset-10 {
+    margin-left: 41.66667%; }
+  .col-md-offset-11 {
+    margin-left: 45.83333%; }
+  .col-md-offset-12 {
+    margin-left: 50%; }
+  .col-md-offset-13 {
+    margin-left: 54.16667%; }
+  .col-md-offset-14 {
+    margin-left: 58.33333%; }
+  .col-md-offset-15 {
+    margin-left: 62.5%; }
+  .col-md-offset-16 {
+    margin-left: 66.66667%; }
+  .col-md-offset-17 {
+    margin-left: 70.83333%; }
+  .col-md-offset-18 {
+    margin-left: 75%; }
+  .col-md-offset-19 {
+    margin-left: 79.16667%; }
+  .col-md-offset-20 {
+    margin-left: 83.33333%; }
+  .col-md-offset-21 {
+    margin-left: 87.5%; }
+  .col-md-offset-22 {
+    margin-left: 91.66667%; }
+  .col-md-offset-23 {
+    margin-left: 95.83333%; }
+  .col-md-offset-24 {
+    margin-left: 100%; } }
+
+@media (min-width: 1084px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-13, .col-lg-14, .col-lg-15, .col-lg-16, .col-lg-17, .col-lg-18, .col-lg-19, .col-lg-20, .col-lg-21, .col-lg-22, .col-lg-23, .col-lg-24 {
+    float: left; }
+  .col-lg-1 {
+    width: 4.16667%; }
+  .col-lg-2 {
+    width: 8.33333%; }
+  .col-lg-3 {
+    width: 12.5%; }
+  .col-lg-4 {
+    width: 16.66667%; }
+  .col-lg-5 {
+    width: 20.83333%; }
+  .col-lg-6 {
+    width: 25%; }
+  .col-lg-7 {
+    width: 29.16667%; }
+  .col-lg-8 {
+    width: 33.33333%; }
+  .col-lg-9 {
+    width: 37.5%; }
+  .col-lg-10 {
+    width: 41.66667%; }
+  .col-lg-11 {
+    width: 45.83333%; }
+  .col-lg-12 {
+    width: 50%; }
+  .col-lg-13 {
+    width: 54.16667%; }
+  .col-lg-14 {
+    width: 58.33333%; }
+  .col-lg-15 {
+    width: 62.5%; }
+  .col-lg-16 {
+    width: 66.66667%; }
+  .col-lg-17 {
+    width: 70.83333%; }
+  .col-lg-18 {
+    width: 75%; }
+  .col-lg-19 {
+    width: 79.16667%; }
+  .col-lg-20 {
+    width: 83.33333%; }
+  .col-lg-21 {
+    width: 87.5%; }
+  .col-lg-22 {
+    width: 91.66667%; }
+  .col-lg-23 {
+    width: 95.83333%; }
+  .col-lg-24 {
+    width: 100%; }
+  .col-lg-pull-0 {
+    right: auto; }
+  .col-lg-pull-1 {
+    right: 4.16667%; }
+  .col-lg-pull-2 {
+    right: 8.33333%; }
+  .col-lg-pull-3 {
+    right: 12.5%; }
+  .col-lg-pull-4 {
+    right: 16.66667%; }
+  .col-lg-pull-5 {
+    right: 20.83333%; }
+  .col-lg-pull-6 {
+    right: 25%; }
+  .col-lg-pull-7 {
+    right: 29.16667%; }
+  .col-lg-pull-8 {
+    right: 33.33333%; }
+  .col-lg-pull-9 {
+    right: 37.5%; }
+  .col-lg-pull-10 {
+    right: 41.66667%; }
+  .col-lg-pull-11 {
+    right: 45.83333%; }
+  .col-lg-pull-12 {
+    right: 50%; }
+  .col-lg-pull-13 {
+    right: 54.16667%; }
+  .col-lg-pull-14 {
+    right: 58.33333%; }
+  .col-lg-pull-15 {
+    right: 62.5%; }
+  .col-lg-pull-16 {
+    right: 66.66667%; }
+  .col-lg-pull-17 {
+    right: 70.83333%; }
+  .col-lg-pull-18 {
+    right: 75%; }
+  .col-lg-pull-19 {
+    right: 79.16667%; }
+  .col-lg-pull-20 {
+    right: 83.33333%; }
+  .col-lg-pull-21 {
+    right: 87.5%; }
+  .col-lg-pull-22 {
+    right: 91.66667%; }
+  .col-lg-pull-23 {
+    right: 95.83333%; }
+  .col-lg-pull-24 {
+    right: 100%; }
+  .col-lg-push-0 {
+    left: auto; }
+  .col-lg-push-1 {
+    left: 4.16667%; }
+  .col-lg-push-2 {
+    left: 8.33333%; }
+  .col-lg-push-3 {
+    left: 12.5%; }
+  .col-lg-push-4 {
+    left: 16.66667%; }
+  .col-lg-push-5 {
+    left: 20.83333%; }
+  .col-lg-push-6 {
+    left: 25%; }
+  .col-lg-push-7 {
+    left: 29.16667%; }
+  .col-lg-push-8 {
+    left: 33.33333%; }
+  .col-lg-push-9 {
+    left: 37.5%; }
+  .col-lg-push-10 {
+    left: 41.66667%; }
+  .col-lg-push-11 {
+    left: 45.83333%; }
+  .col-lg-push-12 {
+    left: 50%; }
+  .col-lg-push-13 {
+    left: 54.16667%; }
+  .col-lg-push-14 {
+    left: 58.33333%; }
+  .col-lg-push-15 {
+    left: 62.5%; }
+  .col-lg-push-16 {
+    left: 66.66667%; }
+  .col-lg-push-17 {
+    left: 70.83333%; }
+  .col-lg-push-18 {
+    left: 75%; }
+  .col-lg-push-19 {
+    left: 79.16667%; }
+  .col-lg-push-20 {
+    left: 83.33333%; }
+  .col-lg-push-21 {
+    left: 87.5%; }
+  .col-lg-push-22 {
+    left: 91.66667%; }
+  .col-lg-push-23 {
+    left: 95.83333%; }
+  .col-lg-push-24 {
+    left: 100%; }
+  .col-lg-offset-0 {
+    margin-left: 0%; }
+  .col-lg-offset-1 {
+    margin-left: 4.16667%; }
+  .col-lg-offset-2 {
+    margin-left: 8.33333%; }
+  .col-lg-offset-3 {
+    margin-left: 12.5%; }
+  .col-lg-offset-4 {
+    margin-left: 16.66667%; }
+  .col-lg-offset-5 {
+    margin-left: 20.83333%; }
+  .col-lg-offset-6 {
+    margin-left: 25%; }
+  .col-lg-offset-7 {
+    margin-left: 29.16667%; }
+  .col-lg-offset-8 {
+    margin-left: 33.33333%; }
+  .col-lg-offset-9 {
+    margin-left: 37.5%; }
+  .col-lg-offset-10 {
+    margin-left: 41.66667%; }
+  .col-lg-offset-11 {
+    margin-left: 45.83333%; }
+  .col-lg-offset-12 {
+    margin-left: 50%; }
+  .col-lg-offset-13 {
+    margin-left: 54.16667%; }
+  .col-lg-offset-14 {
+    margin-left: 58.33333%; }
+  .col-lg-offset-15 {
+    margin-left: 62.5%; }
+  .col-lg-offset-16 {
+    margin-left: 66.66667%; }
+  .col-lg-offset-17 {
+    margin-left: 70.83333%; }
+  .col-lg-offset-18 {
+    margin-left: 75%; }
+  .col-lg-offset-19 {
+    margin-left: 79.16667%; }
+  .col-lg-offset-20 {
+    margin-left: 83.33333%; }
+  .col-lg-offset-21 {
+    margin-left: 87.5%; }
+  .col-lg-offset-22 {
+    margin-left: 91.66667%; }
+  .col-lg-offset-23 {
+    margin-left: 95.83333%; }
+  .col-lg-offset-24 {
+    margin-left: 100%; } }
+
 table {
   background-color: transparent; }
 
@@ -1716,10 +2664,10 @@ output {
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
   .form-control:focus {
-    border-color: #0078D7;
+    border-color: #7b60d9;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 120, 215, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 120, 215, 0.6); }
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(123, 96, 217, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(123, 96, 217, 0.6); }
   .form-control::-moz-placeholder {
     color: rgba(0, 0, 0, 0.2);
     opacity: 1; }
@@ -2262,28 +3210,28 @@ fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #FFFFFF;
-  background-color: #0078D7;
-  border-color: #0078D7; }
+  background-color: #7b60d9;
+  border-color: #7b60d9; }
   .btn-primary:focus, .btn-primary.focus {
     color: #FFFFFF;
-    background-color: #005ca4;
-    border-color: #003158; }
+    background-color: #5937cf;
+    border-color: #3d2496; }
   .btn-primary:hover {
     color: #FFFFFF;
-    background-color: #005ca4;
-    border-color: #00569a; }
+    background-color: #5937cf;
+    border-color: #5331cb; }
   .btn-primary:active, .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
     color: #FFFFFF;
-    background-color: #005ca4;
-    border-color: #00569a; }
+    background-color: #5937cf;
+    border-color: #5331cb; }
     .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
     .open > .btn-primary.dropdown-toggle:hover,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle.focus {
       color: #FFFFFF;
-      background-color: #004880;
-      border-color: #003158; }
+      background-color: #4b2cb7;
+      border-color: #3d2496; }
   .btn-primary:active, .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
@@ -2291,36 +3239,36 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-primary:hover,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary.focus {
-    background-color: #0078D7;
-    border-color: #0078D7; }
+    background-color: #7b60d9;
+    border-color: #7b60d9; }
   .btn-primary .badge {
-    color: #0078D7;
+    color: #7b60d9;
     background-color: #FFFFFF; }
 
 .btn-success {
   color: #FFFFFF;
-  background-color: #0078D7;
-  border-color: #0078D7; }
+  background-color: #7b60d9;
+  border-color: #7b60d9; }
   .btn-success:focus, .btn-success.focus {
     color: #FFFFFF;
-    background-color: #005ca4;
-    border-color: #003158; }
+    background-color: #5937cf;
+    border-color: #3d2496; }
   .btn-success:hover {
     color: #FFFFFF;
-    background-color: #005ca4;
-    border-color: #00569a; }
+    background-color: #5937cf;
+    border-color: #5331cb; }
   .btn-success:active, .btn-success.active,
   .open > .btn-success.dropdown-toggle {
     color: #FFFFFF;
-    background-color: #005ca4;
-    border-color: #00569a; }
+    background-color: #5937cf;
+    border-color: #5331cb; }
     .btn-success:active:hover, .btn-success:active:focus, .btn-success:active.focus, .btn-success.active:hover, .btn-success.active:focus, .btn-success.active.focus,
     .open > .btn-success.dropdown-toggle:hover,
     .open > .btn-success.dropdown-toggle:focus,
     .open > .btn-success.dropdown-toggle.focus {
       color: #FFFFFF;
-      background-color: #004880;
-      border-color: #003158; }
+      background-color: #4b2cb7;
+      border-color: #3d2496; }
   .btn-success:active, .btn-success.active,
   .open > .btn-success.dropdown-toggle {
     background-image: none; }
@@ -2328,10 +3276,10 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-success:hover,
   fieldset[disabled] .btn-success:focus,
   fieldset[disabled] .btn-success.focus {
-    background-color: #0078D7;
-    border-color: #0078D7; }
+    background-color: #7b60d9;
+    border-color: #7b60d9; }
   .btn-success .badge {
-    color: #0078D7;
+    color: #7b60d9;
     background-color: #FFFFFF; }
 
 .btn-info {
@@ -2446,7 +3394,7 @@ fieldset[disabled] a.btn {
     background-color: #FFFFFF; }
 
 .btn-link, .btn-lightweight {
-  color: #0078D7;
+  color: #7b60d9;
   font-weight: normal;
   border-radius: 0; }
   .btn-link, .btn-lightweight, .btn-link:active, .btn-lightweight:active, .btn-link.active, .active.btn-lightweight, .btn-link[disabled], [disabled].btn-lightweight,
@@ -2458,7 +3406,7 @@ fieldset[disabled] a.btn {
   .btn-link, .btn-lightweight, .btn-link:hover, .btn-lightweight:hover, .btn-link:focus, .btn-lightweight:focus, .btn-link:active, .btn-lightweight:active {
     border-color: transparent; }
   .btn-link:hover, .btn-lightweight:hover, .btn-link:focus, .btn-lightweight:focus {
-    color: #0078D7;
+    color: #7b60d9;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, [disabled].btn-lightweight:hover, .btn-link[disabled]:focus, [disabled].btn-lightweight:focus,
@@ -2961,7 +3909,7 @@ tbody.collapse.in {
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: rgba(0, 0, 0, 0.1);
-    border-color: #0078D7; }
+    border-color: #7b60d9; }
   .nav .nav-divider {
     height: 1px;
     margin: 10.5px 0;
@@ -3514,7 +4462,7 @@ tbody.collapse.in {
     z-index: 3;
     color: #000000;
     background-color: transparent;
-    border-color: #0078D7;
+    border-color: #7b60d9;
     cursor: default; }
   .pagination > .disabled > span, .pager > .disabled > span,
   .pagination > .disabled > span:hover, .pager > .disabled > span:hover,
@@ -3672,7 +4620,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   .list-group-item.active > .badge,
   .nav-pills > .active > a > .badge {
-    color: #0078D7;
+    color: #7b60d9;
     background-color: #FFFFFF; }
   .list-group-item > .badge {
     float: right; }
@@ -4519,7 +5467,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4632,7 +5580,7 @@ button.close {
   display: none;
   max-width: 296px;
   padding: 1px;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4745,6 +5693,196 @@ button.close {
     border-right-width: 0;
     border-left-color: #F2F2F2;
     bottom: -10px; }
+
+.carousel {
+  position: relative; }
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
+  .carousel-inner > .item {
+    display: none;
+    position: relative;
+    -webkit-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left; }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      line-height: 1; }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      .carousel-inner > .item {
+        -webkit-transition: -webkit-transform 0.6s ease-in-out;
+        -moz-transition: -moz-transform 0.6s ease-in-out;
+        -o-transition: -o-transform 0.6s ease-in-out;
+        transition: transform 0.6s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000px;
+        -moz-perspective: 1000px;
+        perspective: 1000px; }
+        .carousel-inner > .item.next, .carousel-inner > .item.active.right {
+          -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+          left: 0; }
+        .carousel-inner > .item.prev, .carousel-inner > .item.active.left {
+          -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+          left: 0; }
+        .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+          left: 0; } }
+  .carousel-inner > .active,
+  .carousel-inner > .next,
+  .carousel-inner > .prev {
+    display: block; }
+  .carousel-inner > .active {
+    left: 0; }
+  .carousel-inner > .next,
+  .carousel-inner > .prev {
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  .carousel-inner > .next {
+    left: 100%; }
+  .carousel-inner > .prev {
+    left: -100%; }
+  .carousel-inner > .next.left,
+  .carousel-inner > .prev.right {
+    left: 0; }
+  .carousel-inner > .active.left {
+    left: -100%; }
+  .carousel-inner > .active.right {
+    left: 100%; }
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  background-color: transparent; }
+  .carousel-control.left {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); }
+  .carousel-control.right {
+    left: auto;
+    right: 0;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); }
+  .carousel-control:hover, .carousel-control:focus {
+    outline: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 0.9;
+    filter: alpha(opacity=90); }
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next,
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 5;
+    display: inline-block; }
+  .carousel-control .icon-prev,
+  .carousel-control .glyphicon-chevron-left {
+    left: 50%;
+    margin-left: -10px; }
+  .carousel-control .icon-next,
+  .carousel-control .glyphicon-chevron-right {
+    right: 50%;
+    margin-right: -10px; }
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 20px;
+    height: 20px;
+    line-height: 1;
+    font-family: serif; }
+  .carousel-control .icon-prev:before {
+    content: '\2039'; }
+  .carousel-control .icon-next:before {
+    content: '\203a'; }
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center; }
+  .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: transparent; }
+  .carousel-indicators .active {
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #FFFFFF; }
+
+.carousel-caption {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+  .carousel-caption .btn {
+    text-shadow: none; }
+
+@media screen and (min-width: 540px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    font-size: 30px; }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    margin-left: -10px; }
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
+    margin-right: -10px; }
+  .carousel-caption {
+    left: 20%;
+    right: 20%;
+    padding-bottom: 30px; }
+  .carousel-indicators {
+    bottom: 20px; } }
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -5798,19 +6936,19 @@ button.close {
 .type-t1, .text-t1 {
   font-size: 62px;
   font-weight: 200;
-  font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: -0.01em;
   line-height: 1.16129; }
   @media (max-width: 767px) {
     .type-t1, .text-t1 {
       font-size: 46px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-t1, .text-t1 {
       font-size: 80px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-t1, .text-t1 {
       line-height: 1.21739; } }
@@ -5821,19 +6959,19 @@ button.close {
 .type-t2, .text-t2 {
   font-size: 46px;
   font-weight: 200;
-  font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: -0.01em;
   line-height: 1.21739; }
   @media (max-width: 767px) {
     .type-t2, .text-t2 {
       font-size: 34px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-t2, .text-t2 {
       font-size: 58px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-t2, .text-t2 {
       line-height: 1.17647; } }
@@ -5844,19 +6982,19 @@ button.close {
 .type-t3, .text-t3 {
   font-size: 34px;
   font-weight: 200;
-  font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.17647; }
   @media (max-width: 767px) {
     .type-t3, .text-t3 {
       font-size: 26px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-t3, .text-t3 {
       font-size: 46px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-t3, .text-t3 {
       line-height: 1.23077; } }
@@ -5867,19 +7005,19 @@ button.close {
 .type-t4, .text-t4 {
   font-size: 24px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.16667; }
   @media (max-width: 767px) {
     .type-t4, .text-t4 {
       font-size: 20px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-t4, .text-t4 {
       font-size: 34px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-t4, .text-t4 {
       line-height: 1.2; } }
@@ -5890,19 +7028,19 @@ button.close {
 .type-t5, .text-t5 {
   font-size: 20px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.2; }
   @media (max-width: 767px) {
     .type-t5, .text-t5 {
       font-size: 18px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-t5, .text-t5 {
       font-size: 24px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-t5, .text-t5 {
       line-height: 1.33333; } }
@@ -5913,19 +7051,19 @@ button.close {
 .type-t6, .text-t6 {
   font-size: 18px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333; }
   @media (max-width: 767px) {
     .type-t6, .text-t6 {
       font-size: 16px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-t6, .text-t6 {
       font-size: 20px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-t6, .text-t6 {
       line-height: 1.25; } }
@@ -5936,19 +7074,19 @@ button.close {
 .type-t7, .text-t7 {
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333; }
   @media (max-width: 767px) {
     .type-t7, .text-t7 {
       font-size: 15px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-t7, .text-t7 {
       font-size: 18px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-t7, .text-t7 {
       line-height: 1.33333; } }
@@ -5959,19 +7097,19 @@ button.close {
 .type-t8, .text-t8 {
   font-size: 13px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.23077; }
   @media (max-width: 767px) {
     .type-t8, .text-t8 {
       font-size: 12px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-t8, .text-t8 {
       font-size: 15px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-t8, .text-t8 {
       line-height: 1.33333; } }
@@ -5982,19 +7120,19 @@ button.close {
 .type-t9, .text-t9 {
   font-size: 11px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.45455; }
   @media (max-width: 767px) {
     .type-t9, .text-t9 {
       font-size: 10px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-t9, .text-t9 {
       font-size: 13px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-t9, .text-t9 {
       line-height: 1.2; } }
@@ -6005,7 +7143,7 @@ button.close {
 .h1, .type-h1, h1 {
   font-size: 62px;
   font-weight: 200;
-  font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: -0.01em;
   line-height: 1.16129;
   padding: 38px 0 6px; }
@@ -6013,12 +7151,12 @@ button.close {
     .h1, .type-h1, h1 {
       font-size: 46px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .h1, .type-h1, h1 {
       font-size: 80px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .h1, .type-h1, h1 {
       line-height: 1.21739; } }
@@ -6035,7 +7173,7 @@ button.close {
 .h2, .type-h2, h2 {
   font-size: 46px;
   font-weight: 200;
-  font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: -0.01em;
   line-height: 1.21739;
   padding: 37px 0 3px; }
@@ -6043,12 +7181,12 @@ button.close {
     .h2, .type-h2, h2 {
       font-size: 34px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .h2, .type-h2, h2 {
       font-size: 58px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .h2, .type-h2, h2 {
       line-height: 1.17647; } }
@@ -6065,7 +7203,7 @@ button.close {
 .h3, .type-h3, h3 {
   font-size: 34px;
   font-weight: 200;
-  font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.17647;
   padding: 38px 0 2px; }
@@ -6073,12 +7211,12 @@ button.close {
     .h3, .type-h3, h3 {
       font-size: 26px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .h3, .type-h3, h3 {
       font-size: 46px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .h3, .type-h3, h3 {
       line-height: 1.23077; } }
@@ -6095,7 +7233,7 @@ button.close {
 .h4, .type-h4, h4 {
   font-size: 24px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.16667;
   padding: 36px 0 4px; }
@@ -6103,12 +7241,12 @@ button.close {
     .h4, .type-h4, h4 {
       font-size: 20px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .h4, .type-h4, h4 {
       font-size: 34px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .h4, .type-h4, h4 {
       line-height: 1.2; } }
@@ -6125,7 +7263,7 @@ button.close {
 .h5, .type-h5, h5 {
   font-size: 20px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.2;
   padding: 35px 0 5px; }
@@ -6133,12 +7271,12 @@ button.close {
     .h5, .type-h5, h5 {
       font-size: 18px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .h5, .type-h5, h5 {
       font-size: 24px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .h5, .type-h5, h5 {
       line-height: 1.33333; } }
@@ -6155,7 +7293,7 @@ button.close {
 .h6, .type-h6, h6 {
   font-size: 18px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333;
   padding: 37px 0 3px; }
@@ -6163,12 +7301,12 @@ button.close {
     .h6, .type-h6, h6 {
       font-size: 16px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .h6, .type-h6, h6 {
       font-size: 20px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .h6, .type-h6, h6 {
       line-height: 1.25; } }
@@ -6185,7 +7323,7 @@ button.close {
 .type-sh1 {
   font-size: 34px;
   font-weight: 200;
-  font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.17647;
   padding: 2px 0 2px; }
@@ -6193,12 +7331,12 @@ button.close {
     .type-sh1 {
       font-size: 26px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-sh1 {
       font-size: 46px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-sh1 {
       line-height: 1.23077; } }
@@ -6215,7 +7353,7 @@ button.close {
 .type-sh2 {
   font-size: 24px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.16667;
   padding: 4px 0 8px; }
@@ -6223,12 +7361,12 @@ button.close {
     .type-sh2 {
       font-size: 20px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-sh2 {
       font-size: 34px;
       font-weight: 200;
-      font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-sh2 {
       line-height: 1.2; } }
@@ -6245,7 +7383,7 @@ button.close {
 .type-sh3 {
   font-size: 20px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.2;
   padding: 8px 0 4px; }
@@ -6253,12 +7391,12 @@ button.close {
     .type-sh3 {
       font-size: 18px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-sh3 {
       font-size: 24px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-sh3 {
       line-height: 1.33333; } }
@@ -6275,7 +7413,7 @@ button.close {
 .type-sh4 {
   font-size: 18px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333;
   padding: 9px 0 3px; }
@@ -6283,12 +7421,12 @@ button.close {
     .type-sh4 {
       font-size: 16px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-sh4 {
       font-size: 20px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-sh4 {
       line-height: 1.25; } }
@@ -6305,7 +7443,7 @@ button.close {
 .type-sh5 {
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333;
   padding: 8px 0 0px; }
@@ -6313,12 +7451,12 @@ button.close {
     .type-sh5 {
       font-size: 15px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-sh5 {
       font-size: 18px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-sh5 {
       line-height: 1.33333; } }
@@ -6335,7 +7473,7 @@ button.close {
 .type-sh6 {
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333;
   padding: 8px 0 0px; }
@@ -6343,12 +7481,12 @@ button.close {
     .type-sh6 {
       font-size: 15px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-sh6 {
       font-size: 18px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-sh6 {
       line-height: 1.33333; } }
@@ -6365,7 +7503,7 @@ button.close {
 .type-p1 {
   font-size: 20px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.2;
   padding: 24px 0 4px; }
@@ -6373,12 +7511,12 @@ button.close {
     .type-p1 {
       font-size: 18px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-p1 {
       font-size: 24px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-p1 {
       line-height: 1.33333; } }
@@ -6395,7 +7533,7 @@ button.close {
 .type-p2 {
   font-size: 18px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333;
   padding: 25px 0 3px; }
@@ -6403,12 +7541,12 @@ button.close {
     .type-p2 {
       font-size: 16px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-p2 {
       font-size: 20px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-p2 {
       line-height: 1.25; } }
@@ -6425,7 +7563,7 @@ button.close {
 .type-p3, p {
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333;
   padding: 24px 0 0; }
@@ -6433,12 +7571,12 @@ button.close {
     .type-p3, p {
       font-size: 15px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-p3, p {
       font-size: 18px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-p3, p {
       line-height: 1.33333; } }
@@ -6455,7 +7593,7 @@ button.close {
 .type-p4 {
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333;
   padding: 24px 0 0; }
@@ -6463,12 +7601,12 @@ button.close {
     .type-p4 {
       font-size: 15px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-p4 {
       font-size: 18px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-p4 {
       line-height: 1.33333; } }
@@ -6485,7 +7623,7 @@ button.close {
 .type-c1, figcaption {
   font-size: 13px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.23077;
   padding: 3px 0 1px; }
@@ -6493,12 +7631,12 @@ button.close {
     .type-c1, figcaption {
       font-size: 12px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-c1, figcaption {
       font-size: 15px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-c1, figcaption {
       line-height: 1.33333; } }
@@ -6515,7 +7653,7 @@ button.close {
 .type-c2 {
   font-size: 11px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.45455;
   padding: 4px 0 4px; }
@@ -6523,12 +7661,12 @@ button.close {
     .type-c2 {
       font-size: 10px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     .type-c2 {
       font-size: 13px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     .type-c2 {
       line-height: 1.2; } }
@@ -6769,10 +7907,10 @@ a:focus {
   outline-offset: 1px; }
 
 a:active, a.theme-default:active {
-  color: #006cc2; }
+  color: #6f56c3; }
 
 a.theme-alt:active {
-  color: #268cdd; }
+  color: #8f78df; }
 
 a.theme-light {
   color: #000000;
@@ -6828,7 +7966,7 @@ ol {
   .alert .alert-title {
     font-size: 18px;
     font-weight: 300;
-    font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal;
     line-height: 1.33333;
     margin-bottom: 5px;
@@ -6836,7 +7974,7 @@ ol {
   .alert p {
     font-size: 13px;
     font-weight: 400;
-    font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal;
     line-height: 1.23077;
     margin: 0;
@@ -6875,7 +8013,7 @@ ol {
   margin: 20px 0 25px;
   font-size: 13px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal; }
   .breadcrumb a {
     text-decoration: none; }
@@ -6889,7 +8027,7 @@ ol {
     padding: 0 8px 0 4px;
     vertical-align: baseline; }
   .breadcrumb a, .breadcrumb a:hover, .breadcrumb.theme-default a, .breadcrumb.theme-default a:hover, .breadcrumb.theme-light a, .breadcrumb.theme-light a:hover {
-    color: #0078D7; }
+    color: #7b60d9; }
   .breadcrumb > li + li:before, .breadcrumb.theme-default > li + li:before, .breadcrumb.theme-light > li + li:before {
     color: rgba(0, 0, 0, 0.6); }
   .breadcrumb,
@@ -6918,7 +8056,7 @@ ol {
 .btn {
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   min-width: 120px;
   line-height: 1;
@@ -6931,24 +8069,24 @@ ol {
     text-decoration: none; }
   .btn.btn-primary, .btn.btn-primary.theme-default {
     color: #FFFFFF;
-    background-color: #0078D7;
+    background-color: #7b60d9;
     border-color: transparent; }
     .btn.btn-primary:hover, .btn.btn-primary.theme-default:hover {
       color: #FFFFFF;
-      background-color: #006abe;
+      background-color: #6a4bd4;
       border-color: rgba(0, 0, 0, 0.4); }
     .btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary.active, .btn.btn-primary.theme-default:focus, .btn.btn-primary.theme-default:active, .btn.btn-primary.theme-default.active {
-      background-color: #005ca4;
+      background-color: #5937cf;
       border-color: transparent;
       -webkit-box-shadow: none;
       box-shadow: none; }
     .btn.btn-primary:disabled, .btn.btn-primary.disabled, .btn.btn-primary.theme-default:disabled, .btn.btn-primary.theme-default.disabled {
-      background-color: rgba(0, 120, 215, 0.2); }
+      background-color: rgba(123, 96, 217, 0.2); }
   .btn.btn-primary.theme-alt:hover, .jumbotron.theme-alt .btn.btn-primary:hover, .theme-alt.hero .btn.btn-primary:hover {
-    background-color: #0086f1;
+    background-color: #8c75de;
     border-color: rgba(255, 255, 255, 0.4); }
   .btn.btn-primary.theme-alt:focus, .jumbotron.theme-alt .btn.btn-primary:focus, .theme-alt.hero .btn.btn-primary:focus, .btn.btn-primary.theme-alt:active, .jumbotron.theme-alt .btn.btn-primary:active, .theme-alt.hero .btn.btn-primary:active, .btn.btn-primary.theme-alt.active, .jumbotron.theme-alt .active.btn.btn-primary, .theme-alt.hero .active.btn.btn-primary {
-    background-color: #0b93ff; }
+    background-color: #9d89e3; }
   .btn.btn-primary.theme-alt:disabled, .jumbotron.theme-alt .btn.btn-primary:disabled, .theme-alt.hero .btn.btn-primary:disabled, .btn.btn-primary.theme-alt.disabled, .jumbotron.theme-alt .disabled.btn.btn-primary, .theme-alt.hero .disabled.btn.btn-primary {
     color: rgba(255, 255, 255, 0.2); }
   .btn.btn-primary.theme-on-color, .btn.btn-primary.theme-on-img-dark, .btn.btn-primary.theme-dark, .jumbotron.theme-dark .btn.btn-primary, .theme-dark.hero .btn.btn-primary {
@@ -7074,18 +8212,18 @@ ol {
       border-color: rgba(0, 0, 0, 0.4); }
   .btn.btn-success {
     color: #FFFFFF;
-    background-color: #0078D7;
-    border-color: #0078D7; }
+    background-color: #7b60d9;
+    border-color: #7b60d9; }
     .btn.btn-success:hover, .btn.btn-success:focus, .btn.btn-success.focus,
     .open > .btn.btn-success.dropdown-toggle {
       color: #FFFFFF;
-      background-color: #0078D7;
+      background-color: #7b60d9;
       border-color: rgba(0, 0, 0, 0.4); }
     .btn.btn-success:active, .btn.btn-success.active,
     .open > .btn.btn-success.dropdown-toggle {
       background-image: none;
       color: #FFFFFF;
-      background-color: #005ca4;
+      background-color: #5937cf;
       border-color: transparent; }
     .btn.btn-success.disabled, .btn.btn-success.disabled:hover, .btn.btn-success.disabled:focus, .btn.btn-success.disabled.focus, .btn.btn-success.disabled:active, .btn.btn-success.disabled.active, .btn.btn-success[disabled], .btn.btn-success[disabled]:hover, .btn.btn-success[disabled]:focus, .btn.btn-success[disabled].focus, .btn.btn-success[disabled]:active, .btn.btn-success[disabled].active,
     fieldset[disabled] .btn.btn-success,
@@ -7180,7 +8318,7 @@ ol {
 .btn-link, .btn-lightweight {
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   min-width: 120px;
   line-height: 1;
@@ -7193,9 +8331,9 @@ ol {
   .btn-link:focus, .btn-lightweight:focus, .btn-link:active, .btn-lightweight:active, .btn-link.active, .active.btn-lightweight {
     text-decoration: none; }
   .btn-link, .btn-lightweight, .btn-link.theme-default, .theme-default.btn-lightweight {
-    color: #0078D7; }
+    color: #7b60d9; }
     .btn-link:focus, .btn-lightweight:focus, .btn-link:active, .btn-lightweight:active, .btn-link.theme-default:focus, .theme-default.btn-lightweight:focus, .btn-link.theme-default:active, .theme-default.btn-lightweight:active {
-      color: #006abe;
+      color: #6a4bd4;
       border-color: transparent; }
     .btn-link:disabled, .btn-lightweight:disabled, .btn-link.disabled, .disabled.btn-lightweight, .btn-link[disabled], [disabled].btn-lightweight,
     .btn-link fieldset[disabled], .btn-lightweight fieldset[disabled], .btn-link.theme-default:disabled, .theme-default.btn-lightweight:disabled, .btn-link.theme-default.disabled, .theme-default.disabled.btn-lightweight, .btn-link.theme-default[disabled], .theme-default[disabled].btn-lightweight,
@@ -7254,21 +8392,21 @@ ol {
     border-top-width: 7px; }
 
 .btn[data-toggle="button"].active {
-  background-color: #0078D7;
+  background-color: #7b60d9;
   border-color: transparent;
   color: #FFFFFF;
   -webkit-box-shadow: none;
   box-shadow: none; }
 
 .btn[data-toggle="button"].active:active {
-  background-color: #006abe;
+  background-color: #6a4bd4;
   border-color: transparent;
   color: #000000;
   -webkit-box-shadow: none;
   box-shadow: none; }
 
 .btn[data-toggle="button"]:hover {
-  border-color: #0078D7; }
+  border-color: #7b60d9; }
 
 .btn[data-toggle="button"]:not(.btn-toggle-switch),
 .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch) {
@@ -7289,7 +8427,7 @@ ol {
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-default:active {
       color: #000000;
       background-color: #FFFFFF;
-      border-color: #0078D7; }
+      border-color: #7b60d9; }
     .btn[data-toggle="button"]:not(.btn-toggle-switch).active, .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-default.active,
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).active,
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-default.active {
@@ -7300,8 +8438,8 @@ ol {
       .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).active:hover,
       .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-default.active:hover {
         color: #000000;
-        border-color: #004881;
-        box-shadow: 0px 0px 0px 1px #004881 inset; }
+        border-color: #4a3a82;
+        box-shadow: 0px 0px 0px 1px #4a3a82 inset; }
     .btn[data-toggle="button"]:not(.btn-toggle-switch):disabled, .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-default:disabled,
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch):disabled,
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-default:disabled {
@@ -7334,7 +8472,7 @@ ol {
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-alt:active {
       color: #FFFFFF;
       background-color: #000000;
-      border-color: #0078D7; }
+      border-color: #7b60d9; }
     .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-on-img-dark.active, .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-alt.active,
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-on-img-dark.active,
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-alt.active {
@@ -7345,8 +8483,8 @@ ol {
       .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-on-img-dark.active:hover, .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-alt.active:hover,
       .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-on-img-dark.active:hover,
       .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-alt.active:hover {
-        border-color: #66aee7;
-        box-shadow: 0px 0px 0px 1px #66aee7 inset; }
+        border-color: #b0a0e8;
+        box-shadow: 0px 0px 0px 1px #b0a0e8 inset; }
     .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-on-img-dark:disabled, .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-alt:disabled,
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-on-img-dark:disabled,
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-alt:disabled {
@@ -7389,8 +8527,8 @@ ol {
       .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-dark.active:hover,
       .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-on-color
       .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-dark.active:hover {
-        border-color: #66aee7;
-        box-shadow: 0px 0px 0px 1px #66aee7 inset; }
+        border-color: #b0a0e8;
+        box-shadow: 0px 0px 0px 1px #b0a0e8 inset; }
     .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-on-color .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-dark:disabled,
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-on-color .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-dark:disabled, .btn[data-toggle="button"]:not(.btn-toggle-switch).theme-on-color
     .btn-group[data-toggle="buttons"] .btn:not(.btn-toggle-switch).theme-dark:disabled,
@@ -7452,7 +8590,7 @@ ol {
       .dropdown .dropdown-menu li a {
         font-size: 15px;
         font-weight: 400;
-        font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+        font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
         letter-spacing: normal;
         line-height: 44px;
         height: 44px;
@@ -7504,7 +8642,7 @@ ol {
   .dropdown.theme-light .dropdown-menu li a:hover,
   .dropdown.theme-light .dropdown-menu li a:focus {
     color: #FFFFFF;
-    background-color: #0078D7; }
+    background-color: #7b60d9; }
     .dropdown .dropdown-menu li.active a.disabled,
     .dropdown .dropdown-menu li a:hover.disabled,
     .dropdown .dropdown-menu li a:focus.disabled, .dropdown.theme-default .dropdown-menu li.active a.disabled,
@@ -7714,7 +8852,7 @@ textarea.form-control {
 select {
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal; }
   select.form-control {
     width: 100%;
@@ -7773,7 +8911,7 @@ textarea.form-control {
   textarea.form-control:focus {
     color: #000000;
     background-color: #FFFFFF;
-    border-color: #0078D7;
+    border-color: #7b60d9;
     -webkit-box-shadow: none;
     box-shadow: none; }
   input.form-control:disabled, input.form-control[disabled],
@@ -7788,11 +8926,11 @@ input.form-control::-ms-reveal {
   color: rgba(0, 0, 0, 0.6); }
   input.form-control::-ms-clear:hover,
   input.form-control::-ms-reveal:hover {
-    color: #0078D7; }
+    color: #7b60d9; }
   input.form-control::-ms-clear:active,
   input.form-control::-ms-reveal:active {
     color: #FFFFFF;
-    background-color: #0078D7; }
+    background-color: #7b60d9; }
 
 .form-group label.disabled,
 .form-group .form-group-label.disabled {
@@ -7818,12 +8956,12 @@ input.form-control::-ms-reveal {
   color: rgba(0, 0, 0, 0.2); }
 
 .checkbox label input:checked ~ span::before {
-  background-color: #0078D7;
-  border-color: #0078D7;
+  background-color: #7b60d9;
+  border-color: #7b60d9;
   color: #FFFFFF; }
 
 .checkbox label input:indeterminate ~ span::before {
-  border-color: #0078D7;
+  border-color: #7b60d9;
   color: rgba(0, 0, 0, 0.8); }
 
 .checkbox:hover span::before,
@@ -7834,12 +8972,12 @@ input.form-control::-ms-reveal {
   color: #000000; }
 
 .radio label input:checked ~ span::before {
-  border-color: #0078D7;
+  border-color: #7b60d9;
   color: #000000; }
 
 .radio:hover span::before,
 .radio:hover input:checked ~ span::before {
-  border-color: #0078D7;
+  border-color: #7b60d9;
   color: rgba(0, 0, 0, 0.8); }
 
 .radio:hover input:disabled ~ span::before {
@@ -7857,7 +8995,7 @@ select.form-control {
     color: rgba(0, 0, 0, 0.6); }
   select.form-control:focus {
     color: #FFFFFF;
-    background-color: #0078D7;
+    background-color: #7b60d9;
     -webkit-box-shadow: none;
     box-shadow: none; }
     select.form-control:focus option {
@@ -7865,7 +9003,7 @@ select.form-control {
       color: #000000; }
   select.form-control option:checked {
     color: #FFFFFF;
-    background-color: #0078D7; }
+    background-color: #7b60d9; }
 
 form.theme-alt,
 form.theme-alt p,
@@ -7957,7 +9095,7 @@ form .theme-on-img-dark textarea.form-control {
   form .theme-on-img-dark textarea.form-control:focus {
     color: #000000;
     background-color: #FFFFFF;
-    border-color: #0078D7;
+    border-color: #7b60d9;
     -webkit-box-shadow: none;
     box-shadow: none; }
   form.theme-alt input.form-control:disabled, form.theme-alt input.form-control[disabled],
@@ -8024,15 +9162,15 @@ form.theme-alt .checkbox label input:checked ~ span::before,
 form .theme-alt .checkbox label input:checked ~ span::before,
 form.theme-on-img-dark .checkbox label input:checked ~ span::before,
 form .theme-on-img-dark .checkbox label input:checked ~ span::before {
-  background-color: #0078D7;
-  border-color: #0078D7;
+  background-color: #7b60d9;
+  border-color: #7b60d9;
   color: #FFFFFF; }
 
 form.theme-alt .checkbox label input:indeterminate ~ span::before,
 form .theme-alt .checkbox label input:indeterminate ~ span::before,
 form.theme-on-img-dark .checkbox label input:indeterminate ~ span::before,
 form .theme-on-img-dark .checkbox label input:indeterminate ~ span::before {
-  border-color: #0078D7;
+  border-color: #7b60d9;
   color: rgba(255, 255, 255, 0.8); }
 
 form.theme-alt .checkbox:hover span::before,
@@ -8055,7 +9193,7 @@ form.theme-alt .radio label input:checked ~ span::before,
 form .theme-alt .radio label input:checked ~ span::before,
 form.theme-on-img-dark .radio label input:checked ~ span::before,
 form .theme-on-img-dark .radio label input:checked ~ span::before {
-  border-color: #0078D7;
+  border-color: #7b60d9;
   color: #FFFFFF; }
 
 form.theme-alt .radio:hover span::before,
@@ -8066,7 +9204,7 @@ form.theme-on-img-dark .radio:hover span::before,
 form.theme-on-img-dark .radio:hover input:checked ~ span::before,
 form .theme-on-img-dark .radio:hover span::before,
 form .theme-on-img-dark .radio:hover input:checked ~ span::before {
-  border-color: #0078D7;
+  border-color: #7b60d9;
   color: rgba(255, 255, 255, 0.8); }
 
 form.theme-alt .radio:hover input:disabled ~ span::before,
@@ -8114,7 +9252,7 @@ form .theme-on-img-dark select {
     form.theme-on-img-dark select.form-control:focus,
     form .theme-on-img-dark select.form-control:focus {
       color: #FFFFFF;
-      background-color: #0078D7; }
+      background-color: #7b60d9; }
       form.theme-alt select.form-control:focus option,
       form .theme-alt select.form-control:focus option,
       form.theme-on-img-dark select.form-control:focus option,
@@ -8126,13 +9264,13 @@ form .theme-on-img-dark select {
     form.theme-on-img-dark select.form-control option:checked,
     form .theme-on-img-dark select.form-control option:checked {
       color: #FFFFFF;
-      background-color: #0078D7; }
+      background-color: #7b60d9; }
     form.theme-alt select.form-control[multiple] option:checked,
     form .theme-alt select.form-control[multiple] option:checked,
     form.theme-on-img-dark select.form-control[multiple] option:checked,
     form .theme-on-img-dark select.form-control[multiple] option:checked {
       color: #FFFFFF;
-      background-color: #0078D7; }
+      background-color: #7b60d9; }
 
 form.theme-on-color,
 form.theme-on-color p,
@@ -8223,7 +9361,7 @@ form .theme-dark textarea.form-control {
   form .theme-dark textarea.form-control:focus {
     color: #000000;
     background-color: #FFFFFF;
-    border-color: rgba(0, 120, 215, 0.6);
+    border-color: rgba(123, 96, 217, 0.6);
     -webkit-box-shadow: none;
     box-shadow: none; }
   form.theme-on-color input.form-control:disabled, form.theme-on-color input.form-control[disabled],
@@ -8291,8 +9429,8 @@ form .theme-on-color .checkbox label input:checked ~ span::before,
 form.theme-dark .checkbox label input:checked ~ span::before,
 form .theme-dark .checkbox label input:checked ~ span::before {
   background-color: #FFFFFF;
-  border-color: rgba(0, 120, 215, 0.4);
-  color: #0078D7; }
+  border-color: rgba(123, 96, 217, 0.4);
+  color: #7b60d9; }
 
 form.theme-on-color .checkbox label input:indeterminate ~ span::before,
 form .theme-on-color .checkbox label input:indeterminate ~ span::before,
@@ -8425,7 +9563,7 @@ form .theme-light select {
     form.theme-light select.form-control:focus,
     form .theme-light select.form-control:focus {
       color: #FFFFFF;
-      background-color: #0078D7;
+      background-color: #7b60d9;
       -webkit-box-shadow: none;
       box-shadow: none; }
       form.theme-on-img-light select.form-control:focus option,
@@ -8439,7 +9577,7 @@ form .theme-light select {
     form.theme-light select.form-control option:checked,
     form .theme-light select.form-control option:checked {
       color: #FFFFFF;
-      background-color: #0078D7; }
+      background-color: #7b60d9; }
 
 .putbox {
   margin-top: 24px; }
@@ -8449,13 +9587,13 @@ form .theme-light select {
     vertical-align: top; }
     .putbox .putbox-icon span {
       font-size: 24px;
-      color: #0078D7; }
+      color: #7b60d9; }
   .putbox .putbox-content {
     display: inline-block;
     margin-left: 8px;
     font-size: 15px;
     font-weight: 400;
-    font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal;
     line-height: 1.33333; }
     .putbox .putbox-content .content-form {
@@ -8476,13 +9614,13 @@ form .theme-light select {
   .jumbotron .h1, .hero .h1 {
     font-size: 62px;
     font-weight: 200;
-    font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: -0.01em; }
   .jumbotron p, .hero p {
     margin-bottom: initial;
     font-size: 15px;
     font-weight: 400;
-    font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal;
     line-height: 1.33333;
     padding: 24px 0 0; }
@@ -8509,7 +9647,7 @@ form .theme-light select {
     background-color: rgba(0, 0, 0, 0.1); }
   .jumbotron.theme-dark, .theme-dark.hero {
     color: #FFFFFF;
-    background-color: #0078D7; }
+    background-color: #7b60d9; }
   .jumbotron.theme-alt, .theme-alt.hero {
     color: #FFFFFF;
     background-color: #000000; }
@@ -8524,7 +9662,7 @@ form .theme-light select {
 
 .label {
   font-weight: normal;
-  font-family: "Segoe UI Bold", "Segoe UI", "Selawik Bold", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Bold", "Segoe UI", "Selawik Bold", Tahoma, Verdana, Arial, sans-serif;
   border-radius: 0; }
 
 .modal-content {
@@ -8536,7 +9674,7 @@ form .theme-light select {
     .modal-content .modal-header .modal-title {
       font-size: 20px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
       letter-spacing: normal; }
     .modal-content .modal-header .close {
       display: none; }
@@ -8545,7 +9683,7 @@ form .theme-light select {
     margin: 8px 0 0;
     font-size: 15px;
     font-weight: 400;
-    font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal; }
   .modal-content .modal-footer {
     padding: 0;
@@ -8581,7 +9719,7 @@ form .theme-light select {
   background-color: rgba(255, 255, 255, 0.6); }
   .modal .modal-content {
     background-color: #F2F2F2;
-    border-color: #0078D7;
+    border-color: #7b60d9;
     color: #000000; }
   .modal.theme-alt {
     background-color: rgba(0, 0, 0, 0.6); }
@@ -8853,7 +9991,7 @@ form .theme-light select {
 
 .navbar-global.theme-dark .navbar-nav .open .dropdown-menu,
 .navbar-local.theme-dark .navbar-nav .open .dropdown-menu {
-  background-color: #0078D7; }
+  background-color: #7b60d9; }
   .navbar-global.theme-dark .navbar-nav .open .dropdown-menu > li,
   .navbar-local.theme-dark .navbar-nav .open .dropdown-menu > li {
     background-color: rgba(0, 0, 0, 0.2); }
@@ -8950,7 +10088,7 @@ form .theme-light select {
     .nav-tabs > li > a {
       font-size: 24px;
       font-weight: 300;
-      font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+      font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
       letter-spacing: normal;
       border: 0;
       border-radius: 0;
@@ -9013,7 +10151,7 @@ form .theme-light select {
   box-shadow: none;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333; }
   .popover.top {
@@ -9052,11 +10190,11 @@ form .theme-light select {
     -o-transition: width 2s ease-in-out;
     transition: width 2s ease-in-out; }
     .progress .progress-bar:not(.progress-bar-success):not(.progress-bar-info):not(.progress-bar-warning):not(.progress-bar-danger) {
-      background-color: #0078D7; }
+      background-color: #7b60d9; }
   .progress.theme-alt, .progress.theme-on-img-dark {
     background-color: rgba(255, 255, 255, 0.2); }
     .progress.theme-alt .progress-bar, .progress.theme-on-img-dark .progress-bar {
-      background-color: #0078D7; }
+      background-color: #7b60d9; }
   .progress.theme-on-color, .progress.theme-dark {
     background-color: rgba(255, 255, 255, 0.2); }
     .progress.theme-on-color .progress-bar, .progress.theme-dark .progress-bar {
@@ -9068,14 +10206,14 @@ form .theme-light select {
 .table tr th {
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   color: rgba(0, 0, 0, 0.6); }
 
 .table thead tr th {
   font-size: 11px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   color: rgba(0, 0, 0, 0.6);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -9107,7 +10245,7 @@ form .theme-light select {
 .tooltip {
   font-size: 13px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal; }
   .tooltip .tooltip-inner {
     min-width: 104px;
@@ -9142,7 +10280,7 @@ pre {
   margin: 12px 0 0;
   font-size: 13px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal; }
 
 blockquote {
@@ -9150,19 +10288,19 @@ blockquote {
   margin: 24px 0 0;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 1.33333; }
   @media (max-width: 767px) {
     blockquote {
       font-size: 15px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (min-width: 2048px) {
     blockquote {
       font-size: 18px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
   @media (max-width: 767px) {
     blockquote {
       line-height: 1.33333; } }
@@ -9185,7 +10323,7 @@ blockquote {
     .alert-stack .alert p {
       font-size: 13px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
       letter-spacing: normal;
       margin-bottom: 0;
       padding-top: 4px; }
@@ -9259,7 +10397,7 @@ a.link-on-dark {
     line-height: 1;
     font-size: 15px;
     font-weight: 400;
-    font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal; }
   .btn[data-toggle="button"].btn-toggle-switch .stateLabel-on {
     display: none; }
@@ -9293,12 +10431,12 @@ a.link-on-dark {
       .btn[data-toggle="button"].btn-toggle-switch:hover::before, .btn[data-toggle="button"].btn-toggle-switch.theme-default:hover::before {
         background-color: #000000; }
     .btn[data-toggle="button"].btn-toggle-switch.active, .btn[data-toggle="button"].btn-toggle-switch.theme-default.active {
-      background-color: #0078D7;
+      background-color: #7b60d9;
       border-color: transparent; }
       .btn[data-toggle="button"].btn-toggle-switch.active::before, .btn[data-toggle="button"].btn-toggle-switch.theme-default.active::before {
         background-color: #FFFFFF; }
       .btn[data-toggle="button"].btn-toggle-switch.active:hover, .btn[data-toggle="button"].btn-toggle-switch.theme-default.active:hover {
-        background-color: #0b93ff; }
+        background-color: #9d89e3; }
     .btn[data-toggle="button"].btn-toggle-switch:disabled, .btn[data-toggle="button"].btn-toggle-switch.theme-default:disabled {
       border-color: rgba(0, 0, 0, 0.2); }
       .btn[data-toggle="button"].btn-toggle-switch:disabled::before, .btn[data-toggle="button"].btn-toggle-switch.theme-default:disabled::before {
@@ -9320,12 +10458,12 @@ a.link-on-dark {
       .btn[data-toggle="button"].btn-toggle-switch.theme-alt:hover::before {
         background-color: #FFFFFF; }
     .btn[data-toggle="button"].btn-toggle-switch.theme-alt.active {
-      background-color: #0078D7;
+      background-color: #7b60d9;
       border-color: transparent; }
       .btn[data-toggle="button"].btn-toggle-switch.theme-alt.active::before {
         background-color: #FFFFFF; }
       .btn[data-toggle="button"].btn-toggle-switch.theme-alt.active:hover {
-        background-color: #0b93ff; }
+        background-color: #9d89e3; }
     .btn[data-toggle="button"].btn-toggle-switch.theme-alt:disabled {
       border-color: rgba(255, 255, 255, 0.2); }
       .btn[data-toggle="button"].btn-toggle-switch.theme-alt:disabled::before {
@@ -9434,7 +10572,7 @@ a.link-on-dark {
   .list-quick-links li {
     font-size: 24px;
     font-weight: 300;
-    font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal;
     margin-bottom: 4px; }
   .list-quick-links a {
@@ -9498,7 +10636,7 @@ a.link-on-dark {
   .entity-list .entity-list-item .content-text-secondary {
     font-size: 15px;
     font-weight: 400;
-    font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal;
     line-height: 1.33333; }
 
@@ -9532,7 +10670,7 @@ a.link-on-dark {
   background: #E5E5E5; }
 
 .entity-list .entity-list-item .item-icon, .entity-list.theme-default .entity-list-item .item-icon {
-  background: #0078D7;
+  background: #7b60d9;
   color: #FFFFFF; }
 
 .entity-list .entity-list-item .content-text-secondary, .entity-list.theme-default .entity-list-item .content-text-secondary {
@@ -9661,9 +10799,9 @@ a.link-on-dark {
   .media .media-header {
     font-size: 15px;
     font-weight: 400;
-    font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal;
-    font-family: "Segoe UI Semibold", "Segoe UI", "Selawik Semibold", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI Semibold", "Segoe UI", "Selawik Semibold", Tahoma, Verdana, Arial, sans-serif;
     font-weight: 500;
     margin: .5em 0 .25em;
     color: inherit; }
@@ -9688,7 +10826,7 @@ a.link-on-dark {
   .media .media-subheader {
     font-size: 11px;
     font-weight: 400;
-    font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal;
     color: #000000; }
     .media .media-subheader a {
@@ -9741,7 +10879,7 @@ a.link-on-dark {
 .media-info {
   font-size: 11px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   color: rgba(0, 0, 0, 0.6); }
 
@@ -9906,7 +11044,7 @@ a.link-on-dark {
       content: "\2022";
       position: absolute;
       font-size: 10px;
-      color: #0078D7; }
+      color: #7b60d9; }
     .progress-bar .progress-circle:nth-child(2) {
       -webkit-animation-delay: 200ms;
       animation-delay: 200ms; }
@@ -10010,7 +11148,7 @@ a.link-on-dark {
       content: "\2022";
       position: absolute;
       font-size: 10px;
-      color: #0078D7; }
+      color: #7b60d9; }
     .progress-ring .progress-circle:nth-child(2) {
       -webkit-animation-delay: 300ms;
       animation-delay: 300ms; }
@@ -10159,7 +11297,7 @@ a.link-on-dark {
 .rating .rating-label {
   font-size: 24px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 44px;
   margin-bottom: 1px;
@@ -10207,7 +11345,7 @@ a.link-on-dark {
 .rating.rating-small .rating-label {
   font-size: 13px;
   font-weight: 400;
-  font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   line-height: 16px; }
   .rating.rating-small .rating-label.rating-label-left {
@@ -10230,7 +11368,7 @@ a.link-on-dark {
   color: #000000; }
 
 .rating .rating-stars-value.rating-stars-value-user .glyph-star {
-  color: #0078D7; }
+  color: #7b60d9; }
 
 .rating .rating-btn.active .glyph-star {
   color: rgba(0, 0, 0, 0.8); }
@@ -10245,7 +11383,7 @@ a.link-on-dark {
   color: #FFFFFF; }
 
 .rating.color-alt .rating-stars-value.rating-stars-value-user .glyph-star {
-  color: #0078D7; }
+  color: #7b60d9; }
 
 .rating.color-alt .rating-btn.active .glyph-star {
   color: rgba(255, 255, 255, 0.8); }
@@ -10262,7 +11400,7 @@ a.link-on-dark {
   .section-header .section-title {
     font-size: 46px;
     font-weight: 200;
-    font-family: "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI Light", "Segoe UI", "Selawik Light", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: -0.01em;
     margin-bottom: 0;
     color: inherit; }
@@ -10375,7 +11513,7 @@ a.navigation-btn {
     position: relative;
     font-size: 15px;
     font-weight: 400;
-    font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal; }
     .side-navigation.side-navigation-small.nav .side-nav-c2 a {
       padding-left: 0px; }
@@ -10400,7 +11538,7 @@ a.navigation-btn {
       padding-bottom: 2px;
       font-size: 13px;
       font-weight: 400;
-      font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+      font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
       letter-spacing: normal; }
   .side-navigation.side-navigation-small.nav .panel {
     margin: initial;
@@ -10422,7 +11560,7 @@ a.navigation-btn {
   margin-top: 24px;
   font-size: 24px;
   font-weight: 300;
-  font-family: "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
+  font-family: "Titillium Web", "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", Tahoma, Verdana, Arial, sans-serif;
   letter-spacing: normal;
   font-weight: 400; }
   @media (min-width: 768px) {
@@ -10548,21 +11686,21 @@ code .number {
     padding-left: 21px;
     font-size: 15px;
     font-weight: 400;
-    font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif;
     letter-spacing: normal;
     line-height: 1.33333;
     font-weight: 500;
-    font-family: "Segoe UI Semibold", "Segoe UI", "Selawik Semibold", Tahoma, Verdana, Arial, sans-serif; }
+    font-family: "Titillium Web", "Segoe UI Semibold", "Segoe UI", "Selawik Semibold", Tahoma, Verdana, Arial, sans-serif; }
     @media (max-width: 767px) {
       .guidance.guidance-usage:before {
         font-size: 15px;
         font-weight: 400;
-        font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+        font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
     @media (min-width: 2048px) {
       .guidance.guidance-usage:before {
         font-size: 18px;
         font-weight: 400;
-        font-family: "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
+        font-family: "Titillium Web", "Segoe UI", "Selawik", Tahoma, Verdana, Arial, sans-serif; } }
     @media (max-width: 767px) {
       .guidance.guidance-usage:before {
         line-height: 1.33333; } }
@@ -10572,4 +11710,4 @@ code .number {
   .guidance.guidance-usage {
     border-color: rgba(0, 0, 0, 0.1); }
 
-/*# sourceMappingURL=winstrap-optional.css.map */
+/*# sourceMappingURL=devstrap.css.map */

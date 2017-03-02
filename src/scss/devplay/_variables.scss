@@ -1,12 +1,12 @@
-// Responsive Type Ramp
-
+// import
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900');
 // Font Variables
 $font-family-fallbacks:     Tahoma, Verdana, Arial, sans-serif !default;
-$font-family-light:         "Segoe UI Light", "Segoe UI", "Selawik Light", $font-family-fallbacks !default;
-$font-family-semilight:     "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", $font-family-fallbacks !default;
-$font-family-normal:        "Segoe UI", "Selawik", $font-family-fallbacks !default;
-$font-family-semibold:      "Segoe UI Semibold", "Segoe UI", "Selawik Semibold", $font-family-fallbacks !default;
-$font-family-bold:          "Segoe UI Bold", "Segoe UI", "Selawik Bold", $font-family-fallbacks !default;
+$font-family-light:         'Titillium Web', "Segoe UI Light", "Segoe UI", "Selawik Light", $font-family-fallbacks !default;
+$font-family-semilight:     'Titillium Web', "Segoe UI Semilight", "Segoe UI", "Selawik Semilight", $font-family-fallbacks !default;
+$font-family-normal:        'Titillium Web', "Segoe UI", "Selawik", $font-family-fallbacks !default;
+$font-family-semibold:      'Titillium Web',"Segoe UI Semibold", "Segoe UI", "Selawik Semibold", $font-family-fallbacks !default;
+$font-family-bold:          'Titillium Web',"Segoe UI Bold", "Segoe UI", "Selawik Bold", $font-family-fallbacks !default;
 $font-family-symbols:       "winjs-symbols";
 
 // Responsive Type Ramp key:value

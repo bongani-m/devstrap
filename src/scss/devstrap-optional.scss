@@ -6,33 +6,33 @@
 @charset "UTF-8";
 
 // Settings
-@import "win/resources";
-@import "win/colors";
-@import "win/variables";
+@import "devplay/resources";
+@import "devplay/colors";
+@import "devplay/variables";
 @import "override/variables";
 
 // New mixins and mixins that completely replace
 // bootstrap mixins
-@import "win/mixins/colors";
-@import "win/mixins/animations";
-@import "win/mixins/triangle";
-@import "win/mixins/spacer";
-@import "win/mixins/glyphs";
+@import "devplay/mixins/colors";
+@import "devplay/mixins/animations";
+@import "devplay/mixins/triangle";
+@import "devplay/mixins/spacer";
+@import "devplay/mixins/glyphs";
 @import "override/mixins/tab-focus";
 
 // Base
-@import "win/grid";
+@import "devplay/grid";
 
 //optional bootstrap configuration without grid as example.
-/* when a project includes winstrap, it might want to pick and choose what parts of bootstrap
-to include instead of the default set of bootstrap components winstrap selects automatically.
+/* when a project includes devstrap, it might want to pick and choose what parts of bootstrap
+to include instead of the default set of bootstrap components devstrap selects automatically.
 This demonstrates how to do this for a project that happens to override the bootstrap grid in
-order to substitute it with another grid. instead of @import "winstrap/src/scss/winstrap", use
-@import "winstrap/src/scss/winstrap-optional" in your project's scss */
+order to substitute it with another grid. instead of @import "devstrap/src/scss/devstrap", use
+@import "devstrap/src/scss/devstrap-optional" in your project's scss */
 @import "override/bootstrap-optional";
-@import "win/glyphs";
-@import "win/utilities";
-@import "win/type";
+@import "devplay/glyphs";
+@import "devplay/utilities";
+@import "devplay/type";
 
 // Mixins that override bootstrap mixins
 @import "override/mixins/buttons";
@@ -58,24 +58,24 @@ order to substitute it with another grid. instead of @import "winstrap/src/scss/
 @import "override/tooltip";
 
 // New components
-@import "win/scaffolding";
-@import "win/alerts";
-@import "win/back-to-top";
-@import "win/buttons";
-@import "win/lists";
-@import "win/media";
-@import "win/pager";
-@import "win/pagination";
-@import "win/panels";
-@import "win/progress-bar";
-@import "win/progress-ring";
-@import "win/rating";
-@import "win/section";
-@import "win/side-navigation";
+@import "devplay/scaffolding";
+@import "devplay/alerts";
+@import "devplay/back-to-top";
+@import "devplay/buttons";
+@import "devplay/lists";
+@import "devplay/media";
+@import "devplay/pager";
+@import "devplay/pagination";
+@import "devplay/panels";
+@import "devplay/progress-bar";
+@import "devplay/progress-ring";
+@import "devplay/rating";
+@import "devplay/section";
+@import "devplay/side-navigation";
 
 // Layout
-@import "win/main";
+@import "devplay/main";
 @import "override/page";
 
 // Pages
-@import "win/doc";
+@import "devplay/doc";

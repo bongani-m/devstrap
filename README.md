@@ -1,7 +1,7 @@
 ﻿# devstrap
 ##### The official Bootstrap theme for Devplay
 ﻿
-devplay.io
+http://devplay.io
 
 ## Development
 

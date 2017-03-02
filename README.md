@@ -1,7 +1,7 @@
-﻿# Winstrap
-##### The official Bootstrap theme for Windows
+﻿# devstrap
+##### The official Bootstrap theme for Devplay
 ﻿
-http://winstrap.azurewebsites.net/
+devplay.io
 
 ## Development
 
@@ -21,21 +21,21 @@ npm install -g bower
 ### Clone the repo
 
 ```
-git clone https://github.com/winjs/winstrap.git
+git clone https://github.com/bongani-m/devstrap.git
 ```
 
-You should have a `winstrap` folder.
+You should have a `devstrap` folder.
 
 ### Installing npm packages
 
 To install the required `npm` packages:
 
 ```
-cd winstrap
+cd devstrap
 npm install
 ```
 
-## Building Winstrap
+## Building devstrap
 
 Just run:
 
@@ -58,5 +58,3 @@ Launch this URL in your brower: http://localhost:9001/
 The changes you make to the Sass files `*.scss` or source documentation files `*.hbs` will be automatically recompiled. Just refresh your browser window.
 
 - - -
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.

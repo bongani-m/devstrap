@@ -76,3 +76,17 @@
 // Utility classes
 @import "bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+
+
+.carousel-control.right, .carousel-control.left {
+    background: rgba(0, 0, 0, 0.16);
+    padding: 0em .25em;
+    width: auto;
+}
+
+.v-center {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }

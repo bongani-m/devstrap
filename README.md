@@ -1,4 +1,7 @@
 ﻿# devstrap
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/bongani-m/devstrap.svg)](https://greenkeeper.io/)
+
 ##### The official Bootstrap theme for Devplay
 ﻿
 http://devplay.io
